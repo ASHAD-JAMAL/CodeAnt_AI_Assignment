@@ -97,7 +97,7 @@ function Sidebar() {
             onClick={() => {
               // Close sidebar and navigate to the support page or login
               setIsOpen(false);
-              navigate("/support");
+              navigate("/");
             }}
           >
             <IoCallOutline className="text-xl" />
